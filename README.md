@@ -1,10 +1,10 @@
 # College Football Twitter Bio Update Script
 
 ### Run this from the command line. 
-### This script will run every 5 minutes for as many cycles as specified in Command Line arg
-### On first cycle, it will gather each users (from the 'twthandle' variable) bio,
-### First and all subsequent cycles will then check to see if the users bio has changed. If it has,
-### it will direct message any user specified ('myself' variable) with the updated bio
+This script will run every 5 minutes for as many cycles as specified in Command Line arg
+On first cycle, it will gather each users (from the 'twthandle' variable) bio,
+First and all subsequent cycles will then check to see if the users bio has changed. If it has,
+it will direct message any user specified ('myself' variable) with the updated bio
 
 ### Used to track potential coaching changes in CFB offseason
 
