@@ -1,8 +1,6 @@
 import tweepy
 import time, sys, requests, json
 
-base_url = 'https://perfectfall.com/api/system-property'
-
 
 with open("config.json", "r") as c:
     config = json.load(c)
