@@ -7,12 +7,10 @@ base_url = 'https://perfectfall.com/api/system-property'
 with open("config.json", "r") as c:
     config = json.load(c)
 
-base_url = 'https://perfectfall.com/api/system-property'
-
-tw_api_secret = requests.get(f'{base_url}/40', headers={'token': config['api-key']}).text
-tw_api_token = requests.get(f'{base_url}/41', headers={'token': config['api-key']}).text
-tw_consumer_key = requests.get(f'{base_url}/42', headers={'token': config['api-key']}).text
-tw_consumer_sec = requests.get(f'{base_url}/43', headers={'token': config['api-key']}).text
+tw_api_secret = requests.get(f'{config['base-url']}/{config['tw-sec']}', headers={'token': config['api-key']}).text
+tw_api_token = requests.get(f'{config['base-url']}/{config['tw=tok']}', headers={'token': config['api-key']}).text
+tw_consumer_key = requests.get(f'{config['base-url']}/{config['con-key']}', headers={'token': config['api-key']}).text
+tw_consumer_sec = requests.get(f'{config['base-url']}/{config['con-sec']}', headers={'token': config['api-key']}).text
 
 tw_api_secret_j = json.loads(tw_api_secret)
 tw_api_token_j = json.loads(tw_api_token)
