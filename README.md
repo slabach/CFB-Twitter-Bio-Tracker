@@ -1,4 +1,4 @@
-# College Football Twitter Bio Update Script
+# College Football Twitter Bio Update Tracker Script
 
 ### Used to track potential coaching changes in CFB offseason
 
