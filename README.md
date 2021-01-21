@@ -1,6 +1,6 @@
 # College Football Twitter Bio Update Script
 
-## Used to track potential coaching changes in CFB offseason
+### Used to track potential coaching changes in CFB offseason
 
 ### Run this from the command line. 
 This script will run every 5 minutes for as many cycles as specified in Command Line arg
