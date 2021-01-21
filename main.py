@@ -33,7 +33,7 @@ my_ins = api.get_user(myself)
 counter = 0
 max_rep = int(sys.argv[1])
 print(f"Cycles to run: {max_rep}")
-api.send_direct_message(my_ins.id, 'test')
+# api.send_direct_message(my_ins.id, 'test')
 
 twthandle = config['handles']
 bio = []
